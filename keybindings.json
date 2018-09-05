@@ -38,11 +38,11 @@
   {
     "key": "alt+ctrl+l",
     "command": "editor.action.format",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && editorHasSelection"
   }, {
     "key": "alt+ctrl+l",
     "command": "editor.action.formatDocument",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && !editorHasSelection"
   },
   {
     "key": "ctrl+numpad_divide",
