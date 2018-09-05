@@ -1,5 +1,9 @@
-// Key bindings that are more inline with Jetbrains
+// Place your key bindings in this file to overwrite the defaults
 [
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.saveAll"
+  },
   {
     "key": "ctrl+'",
     "command": "workbench.action.splitEditor"
@@ -37,7 +41,7 @@
     "when": "editorTextFocus"
   }, {
     "key": "alt+ctrl+l",
-    "command": "editor.action.formatSelection",
+    "command": "editor.action.formatDocument",
     "when": "editorTextFocus"
   },
   {
@@ -109,6 +113,11 @@
   {
     "key": "ctrl+y",
     "command": "editor.action.deleteLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+enter",
+    "command": "editor.action.insertLineBefore",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
