@@ -1,0 +1,64 @@
+[
+    {
+      "key": "cmd+s",
+      "command": "workbench.action.files.saveAll"
+    },
+    {
+      "key": "shift+cmd+down",
+      "command": "editor.action.moveLinesDownAction",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+cmd+up",
+      "command": "editor.action.moveLinesUpAction",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "cmd+r",
+      "command": "editor.action.startFindReplaceAction"
+    },
+    {
+      "key": "alt+cmd+l",
+      "command": "editor.action.formatDocument",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "cmd+numpad_divide",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "alt+enter",
+      "command": "editor.action.quickFix",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+f6",
+      "command": "editor.action.changeAll",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+cmd+r",
+      "command": "workbench.action.replaceInFiles"
+    },
+    {
+      "key": "cmd+y",
+      "command": "editor.action.deleteLines",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+alt+enter",
+      "command": "editor.action.insertLineBefore",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+enter",
+      "command": "editor.action.insertLineAfter",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+d",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+    }
+  ]
