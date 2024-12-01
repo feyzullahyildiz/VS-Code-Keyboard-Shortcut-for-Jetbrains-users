@@ -18,7 +18,7 @@
     "command": "editor.action.startFindReplaceAction"
   },
   {
-    "key": "ctrl+cmd+l",
+    "key": "shift+cmd+l",
     "command": "editor.action.formatDocument",
     "when": "editorTextFocus"
   },
